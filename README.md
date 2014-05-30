@@ -23,8 +23,8 @@ NOTE: This script destroys all local mods - run it with caution!
 
 
 *Crontab Settings*
-	#Below == Specific settings for svnUpdateClean.sh and it should be in the crontab.
-	#CONTENT_TYPE="text/plain; charset=utf-8"
-	*/5 * * * * /bin/bash ~/your_main_folder/cron/svnUpdateClean.sh env-name ~/your_main_folder
-	#  env-name is a "lock dir suffix" to lock the files
-	#  ~/your_main_folder is a framework base dir where your project is stored
+* #Below == Specific settings for svnUpdateClean.sh and it should be in the crontab.
+* #CONTENT_TYPE="text/plain; charset=utf-8"
+* */5 * * * * /bin/bash ~/your_main_folder/cron/svnUpdateClean.sh env-name ~/your_main_folder
+* #  env-name is a "lock dir suffix" to lock the files
+* #  ~/your_main_folder is a framework base dir where your project is stored
