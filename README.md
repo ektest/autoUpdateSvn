@@ -4,20 +4,20 @@ SVNAutoUpdateScript
 svnUpdate.sh
 ===================
 
-* Automatically update a Subversion working copy
-* Automatically clear smarty cache
+* Update a Subversion working copy
+* Script also clears smarty cache
 * Run it manually
-* Good for lower environments (Prod unless you want to run everything automatically)
+* Good for lower environments (Prod unless you want to run update automatically)
 
 
 svnUpdateClean.sh
 ===================
 
-* Automatically update a Subversion working copy
-* Automatically reverts local modifiactions
-* Automatically clear smarty cache
-* Automatically runs every 5 mins (Change it to 10 mins if you want! See the crontab settings below)
-* Good for lower environments (Stage, Test and development)
+* Update a Subversion working copy
+* Revert out local modifiactions
+* Clear smarty cache
+* Runs every 5 mins (Change it to 10 mins if you want! See the crontab settings below)
+* Safe for lower environments (Stage, Test and development)
 
 NOTE: This script destroys all local mods - run it with caution!
 
